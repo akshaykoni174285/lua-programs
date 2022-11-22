@@ -1,7 +1,11 @@
 -- the syntax for defining a for loop is 
 
-for i=1,10,1 do -- here you can specify the number of steps to be taken by default it is 1
-    print(i)
+-- for i=1,10,1 do -- here you can specify the number of steps to be taken by default it is 1
+--     print(i)
+
+-- end
+for i=1,10,1 do 
+    print("5*"..i.."="..5*i)
 
 end
 

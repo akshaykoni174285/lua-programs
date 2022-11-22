@@ -22,13 +22,19 @@ end
 
 -- find if the number is negative positive or zero 
 
-print("enter a number")
-local num = io.read("*n")
-if num == 0 then
-    print("num is equal to 0")
-elseif num>0 then
-    print("num is greater than 0")
-else
-    print("num is smaller than 0")
+-- print("enter a number")
+-- local num = io.read("*n")
+-- if num == 0 then
+--     print("num is equal to 0")
+-- elseif num>0 then
+--     print("num is greater than 0")
+-- else
+--     print("num is smaller than 0")
 
-end
+-- end
+
+
+
+print("enter your name")
+local name = io.read("*l")
+print("hello "..name)

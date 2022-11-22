@@ -24,5 +24,3 @@ print(string.upper(name))
 print(math.floor(4.65)) -- this will round of or get rid of the deciaml values 
 
 
-local value =string.pack(str, str,name)
-print(value)

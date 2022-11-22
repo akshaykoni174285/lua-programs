@@ -27,7 +27,7 @@ local function dog(name)
 
     return {
         loyal = function(self,loyalti)
-            dog.loyalti = loyalti
+            self.loyalti = loyalti
             print("i am very local with "..loyalti.." points")
         end, 
 
@@ -41,4 +41,4 @@ local dog = pet()
 dog:bark() -- now just because we are using self in fuction 
 -- we have to use : 
 local doberman = dog(26)
-doberman:loyal(54)
+doberman:loyal()
