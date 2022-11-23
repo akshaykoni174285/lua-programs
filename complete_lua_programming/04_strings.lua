@@ -23,4 +23,8 @@ print(string.upper(name))
 -- similar goes for lower case`
 print(math.floor(4.65)) -- this will round of or get rid of the deciaml values 
 
+-- new cocept
 
+local quote = "hello my name is akshay and i am loving codding in lua language"
+
+print("replacing",string.gsub(quote,"codding","codings"))

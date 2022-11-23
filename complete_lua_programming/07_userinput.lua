@@ -11,5 +11,5 @@ local name = io.read()
 print("hello my name is: "..name)
 
 if name=="akshay" then
-    print("hello general how are you latom")
+    print("hello general how are you? latom")
 end
