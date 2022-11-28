@@ -8,3 +8,5 @@ print("hello world i am gonna start my journey for lua programming")
     this is multi line comment and here
     this is just gonna work fine 
 ]]
+
+local num = 5

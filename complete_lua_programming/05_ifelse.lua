@@ -36,5 +36,15 @@ end
 
 
 print("enter your name")
-local name = io.read("*l")
+local name = io.read("l")
 print("hello "..name)
+
+-- how to use ternary operators in lua 
+
+age = 15
+
+canvote = age>=18 and true or false
+
+print(canvote)
+print(string.sub(name, 0,3))
+print(string.find(name, "aks"))
