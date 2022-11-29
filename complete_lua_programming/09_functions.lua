@@ -26,3 +26,34 @@ hello(name)
 
 -- local value = add(num1, num2)
 -- print("the sum of the two numbers are "..value)
+
+-- * hwo to take multiple arguments in function 
+
+function addsum(...)
+    local sum = 0
+    for k,v in pairs(...) do
+       sum = sum + v
+    end
+    return sum
+end
+
+
+-- ? how do you define a fucntion in a different way
+
+doubleIt = function(self) return self*2 end
+
+print(doubleIt(5))
+
+-- ? how doyou define a closure function in a different way
+
+function OuterFunction()
+    local i=0
+    return function() 
+        i=i+1
+        return i
+    end
+end
+
+getI = OuterFunction()
+print(getI())
+print(getI())
